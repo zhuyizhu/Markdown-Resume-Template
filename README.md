@@ -10,9 +10,8 @@
 
 ## 教育经历
 
-* 前公司&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;2019.8~至今&emsp;&emsp;&emsp;&emsp;&emsp; 事业群名字-部门名字
-* XXXX大学&emsp;&emsp;&emsp;&emsp;&emsp;2017.9~2019.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-研究生
-* XXXX大学&emsp;&emsp;&emsp;&emsp;&emsp;2013.9~2017.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-本科
+* 上海大学&emsp;&emsp;&emsp;&emsp;&emsp;2025.9~至今&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-研究生
+* 西华大学&emsp;&emsp;&emsp;&emsp;&emsp;2021.9~2025.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-本科
 
 ## 专业技能
 
@@ -39,26 +38,10 @@
 * XXX 学生社团优秀干部
 * 竞赛 XXX 奖
 
-## 个人账号
-* blog 地址 (附加自己博客特色，写了哪些技术文章)
-* github 地址 (附加自己github特色，突出的项目)
 
 ## 其他信息
 * 喜欢钻研技术 等等
 * 性格开朗，喜欢跳舞，做个主持人 等等
 
-## 在线制作简历
-
-卡码简历：[https://jianli.kamacoder.com](https://jianli.kamacoder.com/)
-
-（**可以免费无水印导出一次！**）
-
-![](./kamajianli.jpg)
-
-可以轻松制作出简洁高质量的简历。
-
-## 总结
-
-**好的简历是敲门砖，同时也不要在简历上花费过多的精力，好的简历以及面试技巧都是锦上添花**，真的求得心得的offer靠的还是真才实学。
 
 
