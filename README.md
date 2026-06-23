@@ -2,45 +2,41 @@
      <h1>个人简历</h1>
  </center>
 
-## 个人信息
+## 基本信息
 
-* 姓 名：朱奕竹
-* 性 别：女&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;年 龄：22
-* 手 机：18781967671 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  邮 箱：zhuyizhu0224@gmail.com
-* 专 业：计算机科学与技术 &emsp;&emsp;&emsp;&emsp;&emsp; 岗 位：研发工程师
-* 政治面貌：中共党员
+* 姓 名：朱奕竹 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;性 别：女
+* 出生年月：2004.03 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;手 机：18781967671
+* 邮 箱：zhuyizhu0224@gmail.com &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;政治面貌：中共党员
 
 ## 教育经历
 
-* 上海大学&emsp;&emsp;&emsp;&emsp;&emsp;2025.9~至今&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-研究生
+* 上海大学&emsp;&emsp;&emsp;&emsp;&emsp;2025.9~至今&emsp;&emsp;&emsp;&emsp;   计算机科学与技术专业-研究生
 * 西华大学&emsp;&emsp;&emsp;&emsp;&emsp;2021.9~2025.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-本科
 
 ## 项目经历
 
-1.研究方向--基于多智能体协作的 Java 代码自动化排障系统
- * 产出结果一篇一区文章再投（一作，审稿中）
+1.研究方向--基于多智能体协作的 Java 代码自动化排障系统 JavaLens: A RepoGraph-Guided Multi-Agent Framework for Fine-Grained Java Issue Localization
+ * 产出结果一篇一区文章再投（EMSE,一作，审稿中）
  * 项目角色： 核心开发者 / Agent 架构设计
- * 技术栈： LangChain / LangGraph, Java, RepoGraph, LLM API
+ * 技术栈： LangChain / LangGraph, Python,Multi-Agent, RepoGraph, LLM API
  * 项目描述：
      * 针对复杂 Java 业务框架中 Bug 定位困难、错误调用链深的问题，设计并从零实现了一套基于多智能体（Multi-Agent）协作的自动化故障定位与诊断流。系统实现了从文件级、函数级到具体代码行级（File-Function-Line）的精准故障预测。
  * 核心贡献与技术细节：
-      * 多智能体架构设计 (Agent Orchestration): 基于 LangChain/LangGraph 编排了包含 LocalizeAgent（执行定位）、ReviewAgent/CriticAgent（审查评估）和 ReflectAgent（反思修正）的非线性协作工作流，构建了具备自修正能力的闭环执行链。
+      * 多智能体架构设计 (Agent Orchestration): 基于 LangChain/LangGraph 编排了包含RetrievalAgent、LocalizeAgent、CriticAgent和 ReflectAgent的非线性协作工作流，构建了具备自修正能力的闭环执行链。
       * 图结构代码分析与上下文管理 (Graph-based Context): 针对传统 RAG 文本切块导致代码拓扑关系丢失的痛点，引入 RepoGraph 分析代码库。在 Java 框架内提出并验证“故障传播假设”，使 Agent 能够沿着真实的函数调用链路进行追踪。
       * 记忆与状态引擎 (Memory Bank): 开发了细粒度的预测状态记忆库，将 Agent 每一轮推演的文件、函数和行号持久化。当当前追踪路径被 Critic 打回时，支持系统状态的安全回溯，有效避免了 Agent 在复杂代码中陷入死循环推理。
       * 多维量化评估体系 (Evaluation Rubric): 为解决 LLM 幻觉和评估标准单一的问题，为 CriticAgent 独创了一套结构化的量化评分体系，包含：拓扑可达性 (40%)、语义对齐度 (30%) 以及因果推演合法性 (30%)。该机制大幅提升了系统在复杂故障场景下的拦截率与最终定位准确率。
 
-2.项目名称： 基于嵌入式协同架构与深度多任务学习的无人机声学探测系统（毕业设计）
+2.项目名称： 基于嵌入式协同架构与深度多任务学习的无人机声学探测系统（优秀毕业设计）
  * 项目职责： 独立负责从硬件平台搭建、实时传输协议设计到核心算法改进的全流程开发。
- * 核心技术栈： Python, PyTorch/Keras, LabVIEW, ResNet_SE, SELDNet, 信号处理 (STFT/Mel), UDP通信。
- * 项目背景（Situation）： 针对低空领域无人机“黑飞”监管难题，传统雷达或光学手段在复杂环境（遮挡、小目标、高成本）下存在探测瓶颈，亟需一种低成本、高隐蔽性的声学探测定位方案。
+ * 核心技术栈： Python, PyTorch, LabVIEW, ResNet_SE, SELDNet, 信号处理 (STFT/Mel), UDP通信。
+ * 项目背景： 针对低空领域无人机“黑飞”监管难题，传统雷达或光学手段在复杂环境（遮挡、小目标、高成本）下存在探测瓶颈，亟需一种低成本、高隐蔽性的声学探测定位方案。
  * 系统架构（Action - 工程能力）：
     * 软硬件协同设计： 采用四通道麦克风阵列与NI数据采集卡搭建硬件平台。利用 LabVIEW 结合 UDP/TCP 协议构建高性能通信框架，实现了毫秒级延迟的原始音频流实时分帧处理与跨语言传输。
     * 并发处理机制： 设计多线程并行处理流水线（音频接收线程+算法检测线程），通过环形缓冲区机制解决了高采样率（44.1kHz）下的数据堆积问题，确保系统具备工业级实时性。
-    * 算法创新（Action - 算法深度）：
+* 算法创新（Action - 算法深度）：
     * 增强型音频分类模型： 基于 ResNet_SE 架构，引入 SE（Squeeze-and-Excitation）注意力机制，通过自适应通道特征加权捕获无人机旋翼的高频谐波特征。针对数据不平衡问题，设计了定制化的损失函数权重，分类准确率突破 99%。
-    * 多任务联合定位模型： 深度改进 SELDNet 架构，在原有的SED（事件检测）与DOA（波达方向）分支基础上，创新性地集成了一个基于 Softplus 激活函数的距离预测回归分支。实现了方位（水平角/俯仰角）与距离的三位一体联合估计，将系统从单纯的“探测”提升至“三维空间定位”。
-    * 项目成果（Result）：
-    * 成功实现无人机在复杂城市背景声下的精准识别与实时轨迹追踪。该设计因其软硬件高度集成及对 SELD 算法的原创性改进，获得毕业设计优秀评价。
+    * 多任务联合定位模型： 深度改进 SELDNet 架构，在原有的SED（事件检测）与DOA（波达方向）分支基础上，创新性地集成距离预测回归分支。实现了方位（水平角/俯仰角）与距离的三位一体联合估计，将系统从单纯的“探测”提升至“三维空间定位”。
   
 3. MADDPG项目公司/学校 - XX游戏 - 负责后端开发 - 201309- 201401
     * 具体功能
@@ -59,14 +55,6 @@
 * 2023.09-2025.07 微力实验室（院级创新创业实验室） unity 小组组员
 * 2021.09-2025.07 累计志愿时长 152 小时
 
-
-
-
-
-
-## 其他信息
-* 喜欢钻研技术 等等
-* 性格开朗，喜欢跳舞，做个主持人 等等
 
 
 
