@@ -15,7 +15,7 @@
 
 ## 项目经历
 
-1.核心研究方向--基于多智能体协作的图引导 Java 仓库细粒度错误定位框架 JavaLens: A RepoGraph-Guided Multi-Agent Framework for Fine-Grained Java Repo Issue Localization
+1.核心研究方向--JavaLens: A RepoGraph-Guided Multi-Agent Framework for Fine-Grained Java Repo Issue Localization
  * 产出结果一篇一区文章再投（EMSE一作，审稿中）
  * 项目角色： 核心开发者 / Agent 架构设计
  * 技术栈： LangChain / LangGraph, Python,Multi-Agent, RepoGraph, LLM API
