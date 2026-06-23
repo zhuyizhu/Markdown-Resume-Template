@@ -7,7 +7,7 @@
 * 姓 名：朱奕竹 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;性 别：女
 * 出生年月：2004.03 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;手 机：18781967671
 * 邮 箱：zhuyizhu0224@gmail.com &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;政治面貌：中共党员
-
+<img src="C:\Users\zzz\Desktop\研1-1\证件照片\100.150.jpg" width="100" style="float: right; margin-top: -10px; margin-right: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" alt="证件照">
 ## 教育经历
 
 * 上海大学&emsp;&emsp;&emsp;&emsp;&emsp;2025.9~至今&emsp;&emsp;&emsp;&emsp;   计算机科学与技术专业-研究生
@@ -16,7 +16,7 @@
 ## 项目经历
 
 1.研究方向--基于多智能体协作的 Java 代码自动化排障系统 JavaLens: A RepoGraph-Guided Multi-Agent Framework for Fine-Grained Java Issue Localization
- * 产出结果一篇一区文章再投（EMSE,一作，审稿中）
+ * 产出结果一篇一区文章再投（EMSE一作，审稿中）
  * 项目角色： 核心开发者 / Agent 架构设计
  * 技术栈： LangChain / LangGraph, Python,Multi-Agent, RepoGraph, LLM API
  * 项目描述：
@@ -37,12 +37,6 @@
 * 算法创新（Action - 算法深度）：
     * 增强型音频分类模型： 基于 ResNet_SE 架构，引入 SE（Squeeze-and-Excitation）注意力机制，通过自适应通道特征加权捕获无人机旋翼的高频谐波特征。针对数据不平衡问题，设计了定制化的损失函数权重，分类准确率突破 99%。
     * 多任务联合定位模型： 深度改进 SELDNet 架构，在原有的SED（事件检测）与DOA（波达方向）分支基础上，创新性地集成距离预测回归分支。实现了方位（水平角/俯仰角）与距离的三位一体联合估计，将系统从单纯的“探测”提升至“三维空间定位”。
-  
-3. MADDPG项目公司/学校 - XX游戏 - 负责后端开发 - 201309- 201401
-    * 具体功能
-    * 运用了那些技术，技术难点是
-    * 效果如何
-    * demo演示地址，github地址
 
 ## 获奖及实践经历
 * 2025.10 上海大学学业一等奖学金（保研）
