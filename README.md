@@ -7,10 +7,10 @@
 * 姓 名：朱奕竹 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;性 别：女
 * 出生年月：2004.03 &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;手 机：18781967671
 * 邮 箱：zhuyizhu0224@gmail.com &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;政治面貌：中共党员
-<img src="C:\Users\zzz\Desktop\研1-1\证件照片\100.150.jpg" width="100" style="float: right; margin-top: -10px; margin-right: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" alt="证件照">
+
 ## 教育经历
 
-* 上海大学&emsp;&emsp;&emsp;&emsp;&emsp;2025.9~至今&emsp;&emsp;&emsp;&emsp;   计算机科学与技术专业-研究生
+* 上海大学&emsp;&emsp;&emsp;&emsp;&emsp;2025.9~至今&emsp;&emsp;&emsp;&emsp;&emsp;   计算机科学与技术专业-研究生
 * 西华大学&emsp;&emsp;&emsp;&emsp;&emsp;2021.9~2025.7&emsp;&emsp;&emsp;&emsp; 计算机科学与技术专业-本科
 
 ## 项目经历
